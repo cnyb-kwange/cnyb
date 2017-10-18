@@ -1,0 +1,31 @@
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h3 {
+    width: 650px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title h3 em {
+    transition: all .18s ease-in-out;
+}
+
+.title h3 em:before {
+    content: '';
+    transition: all .18s ease-in-out;
+}
+
+.title:hover h3 em {
+    color: rgb(47, 135, 193);
+}
+
+.title p {
+    margin-top: 30px;
+    color: rgb(47, 135, 193);
+    text-align: center;
+}
